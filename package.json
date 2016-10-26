@@ -2,9 +2,11 @@
   "name": "contrabass.css",
   "version": "1.0.0",
   "description": "Tiny CSS utility belt",
-  "main": "index.js",
+  "main": "src/index.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss postcss --use postcss-import --use postcss-cssnext -o ./dist/contrabass.css ./src/index.css",
+    "minify": "cssnano < ./dist/contrabass.css > ./dist/contrabass.min.css",
+    "prepublish": "npm run build && npm run minify"
   },
   "repository": {
     "type": "git",
@@ -17,12 +19,20 @@
     "utility",
     "oocss",
     "class",
-    "style"
+    "style",
+    "postcss"
   ],
   "author": "Dmitri Voroniansk <dmitri.voronianski@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/voronianski/contrabass.css/issues"
   },
-  "homepage": "https://github.com/voronianski/contrabass.css#readme"
+  "homepage": "https://github.com/voronianski/contrabass.css#readme",
+  "devDependencies": {
+    "cssnano-cli": "^1.0.5",
+    "postcss": "^5.2.5",
+    "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-import": "^8.1.2"
+  }
 }
