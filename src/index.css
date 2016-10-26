@@ -1,4 +1,10 @@
-@import './borders.css';
+@import './buttons.css';
+@import './buttons.css';
+@import './colors.css';
+@import './layouts.css';
 @import './margins.css';
 @import './paddings.css';
+@import './positions.css';
+@import './typography.css';
+
 @import './defaults.css';

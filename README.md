@@ -16,11 +16,21 @@ or
 
 ## List of classes
 
+### Buttons
+
+### Borders
+
+### Colors
+
+### Layouts
+
 ### Margins
 
 ### Paddings
 
-### Borders
+### Positions
+
+### Typography
 
 ---
 

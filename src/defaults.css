@@ -1,26 +1,61 @@
 :root {
+  --h00: 4rem;
+  --h0: 3rem;
+  --h1: 2rem;
+  --h2: 1.5rem;
+  --h3: 1.25rem;
+  --h4: 1rem;
+  --h5: .875rem;
+  --h6: .75rem;
+
   --space-1: .5rem;
   --space-2: 1rem;
   --space-3: 2rem;
   --space-4: 4rem;
 
+  --button-font-family: inherit;
   --button-font-size: inherit;
   --button-font-weight: bold;
   --button-line-height: 1.125rem;
   --button-padding-y: .5rem;
   --button-padding-x: 1rem;
+  --button-small-padding-y: .25rem;
+  --button-small-padding-x: .5rem;
+  --button-big-padding-y: 1rem;
+  --button-big-padding-x: 1.25rem;
+  --button-narrow-padding-x: var(--space-1);
+
+  --aqua:   #7fdbff;
+  --blue:   #0074d9;
+  --navy:   #001f3f;
+  --teal:   #39cccc;
+  --green:  #2ecc40;
+  --olive:  #3d9970;
+  --lime:   #01ff70;
+
+  --yellow: #ffdc00;
+  --orange: #ff851b;
+  --red:    #ff4136;
+  --fuchsia:#f012be;
+  --purple: #b10dc9;
+  --maroon: #85144b;
+
+  --white:  #fff;
+  --silver: #ddd;
+  --gray:   #aaa;
+  --black:  #111;
 
   --darken-1: rgba(0,0,0,.0625);
   --darken-2: rgba(0,0,0,.125);
   --darken-3: rgba(0,0,0,.25);
   --darken-4: rgba(0,0,0,.5);
 
-  --lighten-1: rgba(255,255,255,.0625);
-  --lighten-2: rgba(255,255,255,.125);
-  --lighten-3: rgba(255,255,255,.25);
-  --lighten-4: rgba(255,255,255,.5);
-
   --border-width: 1px;
   --border-radius: 3px;
   --border-color: var(--darken-2);
+
+  --z1: 1;
+  --z2: 2;
+  --z3: 3;
+  --z4: 4;
 }
