@@ -47,7 +47,7 @@
   left: -1px;
   border: 1px solid transparent;
   background-color: currentcolor;
-  border-radius: 3px;
+  border-radius: inherit;
   opacity: 0;
 }
 .button-outline:hover {
