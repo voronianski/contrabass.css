@@ -50,7 +50,7 @@
   left: -var(--border-width);
   border: var(--border-width) solid transparent;
   background-color: currentcolor;
-  border-radius: var(--border-radius);
+  border-radius: inherit;
   opacity: 0;
 }
 

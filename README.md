@@ -11,7 +11,7 @@ npm i contrabass.css --save
 or
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/contrabass.css@1.0.2/dist/contrabass.min.css" type="text/css" />
+<link rel="stylesheet" href="https://unpkg.com/contrabass.css@1.0.3/dist/contrabass.min.css" type="text/css" />
 ```
 
 ## List of classes
