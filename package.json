@@ -1,6 +1,6 @@
 {
   "name": "contrabass.css",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Tiny CSS utility belt",
   "main": "src/index.css",
   "scripts": {
