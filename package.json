@@ -4,7 +4,7 @@
   "description": "Tiny CSS utility belt",
   "main": "src/index.css",
   "scripts": {
-    "build": "postcss postcss --use postcss-import --use postcss-cssnext -o ./dist/contrabass.css ./src/index.css",
+    "build": "postcss --use postcss-import --use postcss-cssnext -o ./dist/contrabass.css ./src/index.css",
     "minify": "cssnano < ./dist/contrabass.css > ./dist/contrabass.min.css",
     "prepublish": "npm run build && npm run minify"
   },
